@@ -1,5 +1,5 @@
 :root{
-    --primary-indigo: turquoise;
+    --primary-indigo: rgb(60, 241, 69);
 }
 
 body{
@@ -13,8 +13,9 @@ h1{
 .container{
     display: block;
     text-align: center;
-    width: 60%;
+    width: 40%;
     margin: auto;
+    border: 10px solid rgb(67, 15, 83);
 }
 
 .container label{
