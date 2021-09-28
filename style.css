@@ -1,0 +1,68 @@
+:root{
+    --primary-indigo: turquoise;
+}
+
+body{
+    background-color: var(--primary-indigo);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: block;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.container label{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+#date-of-birth{
+    width: 30%;
+    height: 5vh;
+    outline: none;
+    border-radius: 10px;
+}
+input[type=date]{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#lucky-number{
+    width: 25%;
+    height: 5vh;
+    outline: none;
+    border-radius: 10px;
+}
+input[type=number]{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#checkbtn{
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 0.5rem;
+}
+
+#output-text{
+    display: block;
+    text-align: center;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 15px;
+    padding: 0.5rem;
+}
